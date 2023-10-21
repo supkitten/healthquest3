@@ -33,4 +33,8 @@ public class MainActivity extends AppCompatActivity {
     {
         setContentView(R.layout.patord);
     }
+    public void checkbox(View b)
+    {
+
+    }
 }
