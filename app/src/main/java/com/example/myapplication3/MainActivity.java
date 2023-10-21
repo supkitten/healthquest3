@@ -25,6 +25,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.info);
     }
     public void start(View a) {setContentView(R.layout.patord);}
-    //public void checkbox(View b) {}
+    public void checkbox(View b) {}
     public void doc(View a) { setContentView(R.layout.doctor); }
 }
