@@ -11,12 +11,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void enable(View a)
-    {
-
-        setContentView(R.layout.patord);
-    }
-
+    public void enable(View a) {setContentView(R.layout.patord);}
     public void patient(View a)
     {
         setContentView(R.layout.patientpage1);
@@ -29,16 +24,7 @@ public class MainActivity extends AppCompatActivity {
     {
         setContentView(R.layout.info);
     }
-    public void start(View a)
-    {
-        setContentView(R.layout.patord);
-    }
-    public void checkbox(View b)
-    {
-
-    }
-    public void doc(View a)
-    {
-        setContentView(R.layout.doctor);
-    }
+    public void start(View a) {setContentView(R.layout.patord);}
+    //public void checkbox(View b) {}
+    public void doc(View a) { setContentView(R.layout.doctor); }
 }
