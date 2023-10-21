@@ -33,13 +33,14 @@
         android:layout_height="115dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="8dp"
-        android:onClick="doctor"
+        android:onClick="doc"
         android:text="Doctor"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/button4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:toggleCheckedStateOnClick="false" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

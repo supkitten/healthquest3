@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     {
 
     }
-    public void doctor(View a)
+    public void doc(View a)
     {
         setContentView(R.layout.doctor);
     }
