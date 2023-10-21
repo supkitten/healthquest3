@@ -15,7 +15,7 @@
         android:scaleY="1.3"
         app:srcCompat="@drawable/map"
         tools:layout_editor_absoluteX="-87dp"
-        tools:layout_editor_absoluteY="-103dp" />
+        tools:layout_editor_absoluteY="-87dp" />
 
     <ImageView
         android:id="@+id/imageView2"
