@@ -25,11 +25,12 @@ public class MainActivity extends AppCompatActivity {
     {
         setContentView(R.layout.info);
         TextView tv1 = (TextView)findViewById(R.id.textView7);
-        tv1.setText("hello");
+        TextView tv2 = (TextView)findViewById(R.id.textView8);
+        tv1.setText("Room: " );
+        tv2.setText("Estemated wait time: " +50);
     }
     public void start(View a) {setContentView(R.layout.patord);}
     public void checkbox(View b) {}
     public void doc(View a) { setContentView(R.layout.doctor); }
 
 }
-
