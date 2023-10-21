@@ -25,9 +25,9 @@
         android:rotation="90"
         android:scaleX="0.2"
         android:scaleY="0.2"
-        app:srcCompat="@drawable/point"
-        tools:layout_editor_absoluteX="-16dp"
-        tools:layout_editor_absoluteY="-175dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/point" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -36,9 +36,13 @@
         android:rotation="90"
         android:scaleX="0.2"
         android:scaleY="0.2"
-        app:srcCompat="@drawable/point"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="265dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/point" />
 
     <Button
         android:id="@+id/button5"
