@@ -65,7 +65,7 @@
         android:id="@+id/button3"
         android:layout_width="361dp"
         android:layout_height="66dp"
-        android:text="CLick here for direction to your room"
+        android:text="Click here for direction to your room"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         tools:layout_editor_absoluteX="25dp"
         tools:layout_editor_absoluteY="649dp" />
