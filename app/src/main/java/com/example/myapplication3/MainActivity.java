@@ -21,4 +21,12 @@ public class MainActivity extends AppCompatActivity {
     {
         setContentView(R.layout.patientpage1);
     }
+    public void map(View a)
+    {
+        setContentView(R.layout.map);
+    }
+    public void info(View a)
+    {
+        setContentView(R.layout.info);
+    }
 }
