@@ -29,4 +29,8 @@ public class MainActivity extends AppCompatActivity {
     {
         setContentView(R.layout.info);
     }
+    public void start(View a)
+    {
+        setContentView(R.layout.patord);
+    }
 }
