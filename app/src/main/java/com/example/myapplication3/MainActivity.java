@@ -3,6 +3,7 @@ package com.example.myapplication3;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
     public void info(View a)
     {
         setContentView(R.layout.info);
-        TextView tv = findViewById(R.id.textView7);
-        tv.setText("hello");
+        TextView tv1 = (TextView)findViewById(R.id.textView7);
+        tv1.setText("hello");
     }
     public void start(View a) {setContentView(R.layout.patord);}
     public void checkbox(View b) {}
