@@ -23,9 +23,12 @@ public class MainActivity extends AppCompatActivity {
     public void info(View a)
     {
         setContentView(R.layout.info);
+        TextView tv = findViewById(R.id.textView7);
+        tv.setText("hello");
     }
     public void start(View a) {setContentView(R.layout.patord);}
     public void checkbox(View b) {}
     public void doc(View a) { setContentView(R.layout.doctor); }
 
 }
+
